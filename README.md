@@ -25,12 +25,12 @@ relevant, while being able to reach the information
 
 **Back-end:** MySQL
 
-## Screenshots
+## 	:camera: Screenshots
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
-## Lessons Learned
+## :scroll: Lessons Learned
 
 No matter what type of project you are building or working on, the experience and the knowledge you gain from it cannot be measure.
 Some of the thing that I learned while building this project is that creating a project is not a one day task and you need to be consistent.
