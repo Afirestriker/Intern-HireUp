@@ -1,6 +1,7 @@
 # Hi, I'm Ashish! 👋
 
 # Intern & HireUp (Java Full Stack Project)
+![WelcomePage](./ScreenShots/welcomePage.JPG)
 
 A brief description of what this project does and who it's for...
 
@@ -27,7 +28,6 @@ relevant, while being able to reach the information
 
 ## 	:camera: Screenshots
 <!--  Syntax: ![Alt-Text](Path) -->
-![WelcomePage](./ScreenShots/welcomePage.JPG)
 ![SignUpPage](./ScreenShots/Signup.JPG)
 ![LoginPage](./ScreenShots/Login.JPG)
 ![UserHomePage](./ScreenShots/UserHomePage.JPG)
