@@ -31,9 +31,7 @@ relevant, while being able to reach the information
 ![App Screenshot](./ScreenShots/Signup.JPG)
 ![App Screenshot](./ScreenShots/Login.JPG)
 ![App Screenshot](./ScreenShots/UserHomePage.JPG)
-![App Screenshot](./ScreenShots/AdminHomePage.JPG)
-![App Screenshot](./ScreenShots/UserResume.JPG)
-
+![App Screenshot](./ScreenShots/UserResume.JPG) ![App Screenshot](./ScreenShots/AdminHomePage.JPG)
 
 ## :scroll: Lessons Learned
 
