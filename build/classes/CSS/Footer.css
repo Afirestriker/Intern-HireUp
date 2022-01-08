@@ -1,0 +1,86 @@
+
+/*Footer.html Styling*/
+
+/* Footer section*/
+
+/*Footer Background color*/
+#footer{
+	background-color: #29323c;
+	font-size: 10px;
+}
+
+/*Footer Container*/
+#footer .footer{
+	padding-top: 20px;
+	min-height: 30vh;
+
+	width: 100%;
+	max-width: 100%;
+	margin: 0px auto;
+	display: flex;
+		flex-direction: column;
+
+		align-items: center;
+		justify-content: center;
+
+}
+
+
+/*Footer section title 'Thank You' styling*/
+#footer .footer .section-title
+{
+	color: rgb(209, 67, 164);
+	font-size: 30px;
+	margin-bottom: 10px;
+
+	text-align: center;
+	font-weight: 300px; /*Font bold px*/
+	text-transform: uppercase;
+	letter-spacing: 2px; 
+}
+
+/*Footer section 'come and join us' styling*/
+#footer .footer .footer-sub-heading
+{
+	color: white;
+	font-size: 12px;
+	margin-bottom: 10px;
+	font-weight: 200px;
+	letter-spacing: 2px;
+}
+
+
+/*Footer Social Icon (Facebook, Instagram, Youtube, Twitter) styling*/
+#footer .social-icons{
+	display: flex;
+	margin-bottom: 10px;
+}
+
+#footer .social-icons .social-icon{
+	margin: 0px 4px;
+}
+
+#footer .social-icons .social-icon img{
+	filter: grayscale(100%);
+	transition: filter .3s ease;
+}
+
+#footer .social-icons .social-icon img:hover{
+	filter: grayscale(0%);
+}
+
+
+/*Footer section 'created by' styling*/
+#footer .footer p{
+	color: white;
+	font-size: 8.8px;
+	text-transform: uppercase;
+
+	font-weight: 800px;
+	line-height: 40px;
+	letter-spacing: 2px;
+	padding: 0px 50px; /*Top-Bottom & Right-Left px*/
+
+}
+
+/*End of Footer section-----------------------------------------------------------------------*/

@@ -1,0 +1,447 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+	margin: 0px;  /*All side*/
+	padding: 0px; /*All side*/
+
+	font-size: 10px;
+	font-family: Montserrat, Roboto, sans-serif;
+	scroll-behavior: smooth;
+
+}
+
+.container
+{
+	min-height: 100vh;
+	width: 100%;
+	max-width: 100%;
+	margin: 0px auto;
+	display: flex;
+		align-items: center;
+		justify-content: center;
+}
+
+.section-title{
+	text-align: center;
+	color: #79a8f2;
+	font-size: 70px;
+	font-weight: 300px; /*Font bold px*/
+	text-transform: uppercase;
+	letter-spacing: 2px; 
+	margin-bottom: 20px;
+}
+
+span
+{
+	font-size: 60px;
+	color: #79a8f2;
+}
+
+p{
+	font-size: 22px;
+	font-weight: 300px;
+	line-height: 40px;
+	letter-spacing: 2px;
+	padding: 0px 50px; /*Top-Bottom & Right-Left px*/
+	margin-top: 5px;   /*All side*/
+}
+
+hr{
+	margin: 1% 4%;  /*Top-Bottom & Right-Left px*/
+}
+/*Common styling-----------------------------------------------------------------------------------*/
+
+
+/*Menu section*/
+#menu{
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+#menu .menu
+{
+	min-height: 10vh;
+	background-color: rgba(31,30,30,0.24);
+	justify-content: space-between;
+	transition: .3s ease background-color;
+}
+
+#menu .menu .logo
+{
+	height: 70px;
+	margin-left: 150px;
+}
+
+#menu .menu ul
+{
+	margin-right: 150px;
+}
+
+#menu .menu ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 13px;
+	padding-top: 10px;
+}
+
+#menu .menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: .3s ease color;
+}
+
+
+#menu .menu ul li a:hover{
+	color: #5b93eb;
+}
+/*End of Menu section-------------------------------------------------------------------------*/
+
+
+/*Main page section*/
+#index
+{
+	background-image: url(../Images/homebg.jpg);
+	background-position: top center;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+
+#index::after
+{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+#index .index{
+	flex-direction: column;
+	text-align: center;
+}
+
+#index .index h1
+{
+	display: block;
+	position: relative;
+	font-size: 70px;
+	color: white;
+	padding: 0px 50px;
+}
+
+#index .index h2
+{
+	display: block;
+	position: relative;
+	font-size: 40px;
+	color: white;
+	padding: 0px 50px;
+
+	animation-name: fadein;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadein{
+	from{opacity: 0;}
+	to { opacity: 1;}
+}
+/*End of Main page section------------------------------------------------------------------------*/
+
+
+/*About Section*/
+#about .about{
+	flex-direction: column;
+	text-align: center;
+	padding: 100px 0;
+}
+
+/*#about .about-header -> common styling for section-title and paragraph tag*/
+
+#about .about-body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	flex-wrap: wrap;
+}
+
+#about .team-heading{
+	font-size: 40px;
+	color: purple;
+}
+
+#about .team-img-gallery
+{
+  	border: 1px solid #ccc;
+  	border-radius: 16px;
+  	width: 350px;
+  	height: 500px;
+  	padding-bottom: 5px;
+  	margin: 12px;
+  	box-shadow: 0px 0px 18px 0px #0000002c; /*Horizontal-offset, Vertical-offset, blur-effect, shadow-spread, color*/
+  	transition: box-shadow .3s, border .3s ease;         /*Transition-Property, Transition-Delay, Timing-function*/
+}
+
+#about .team-img-gallery:hover{
+	box-shadow: 0px 0px 5px 0px #0000002c;	/*On hover box-shadow blur-effect gets reduced*/
+	border: 1px dashed #777;
+}
+
+#about .about-body .team-img-gallery img{
+	width: 100%;
+  	height: 50%;
+  	object-fit: cover;
+  	border-top-left-radius: 16px;		/*Same as .team-img-gallery*/
+  	border-top-right-radius: 16px;		/*Same as .team-img-gallery*/
+}
+
+#about .team-img-gallery .img-desc .name
+{
+	padding: 15px;
+  	text-align: left;
+  	font-size: 20px;
+  	line-height: 30px;
+  	letter-spacing: 1.6px;
+}
+
+#about .team-img-gallery .img-desc .position
+{
+	padding: 15px;
+  	text-align: left;
+  	font-size: 15px;
+  	color: gray;
+  	line-height: 10px;
+  	letter-spacing: 1.6px;
+}
+
+#about .team-img-gallery .img-desc .aboutme
+{
+	padding: 15px;
+  	text-align: left;
+  	font-size: 20px;
+  	line-height: 30px;
+  	letter-spacing: 1.6px;
+}
+
+#about .team-img-gallery .img-desc .email
+{
+	padding: 15px;
+  	text-align: left;
+  	font-size: 15px;
+  	line-height: 30px;
+  	letter-spacing: 1.6px;
+}
+/*End of About Section----------------------------------------------------------------------------*/
+
+/*Contact section*/
+#contact
+{
+	background-image: url(../Images/contact-bg.jpeg);
+	background-position: top center;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+
+#contact::after
+{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+#contact .contact{
+	min-height: 84vh;
+	flex-direction: column;
+	align-items: initial;
+	padding: 70px 0px; /*Top-Bottom  Right-Left*/
+}
+
+#contact .contact-form p{
+	padding-left: 4.2%;
+	color: white;
+}
+
+#contact .contact-form h3{
+	padding-left: 4.2%;
+	color: yellow;
+	font-size: 20px;
+}
+
+#contact .contact-form form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 100%;
+}
+
+#contact .contact-form input[type="text"], input[type="email"]{
+	width: 90%;
+	padding: 14px;
+	margin: 5px 50px;
+	transition: border-left-width .1s ease;
+}
+
+#contact .contact-form input[type="text"]:hover{
+	border-color: transparent;
+	border-left-color: red;
+	border-left-width: 6px;
+}
+
+#contact .contact-form input[type="email"]:hover{
+	border-color: transparent;
+	border-left-color: red;
+	border-left-width: 6px;
+}
+
+#contact .contact-form input[type="text"]:focus{
+	outline: none;
+	border-left-color: red;
+	border-left-width: 6px;
+}
+
+#contact .contact-form input[type="email"]:focus{
+	outline: none;
+	border-left-color: red;
+	border-left-width: 6px;
+}
+
+#contact .contact-form input[type="submit"]{
+	margin: 5px 50px;
+	width: 28%;
+	padding: 14px;
+	font-size: 250%;
+	color: white;
+	background-color: black;
+	border: 0px;
+	transition: .4s;
+}
+
+#contact .contact-form input[type="submit"]:hover{
+	color: black;
+	background-color: white;
+	border-color: white;	
+}
+
+/*End of contact section-------------------------------------------------------------------------*/
+
+/*Company list section*/
+/* The element to apply the animation to */
+#comp-list{
+	animation-name: Bgcolor;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    padding: 40px 0px;
+    max-width: 100%;
+}
+
+/* The animation code */
+@keyframes Bgcolor {
+  0%   {background-color:red;}
+  25%  {background-color:yellow;}
+  50%  {background-color:orange;}
+  75%  {background-color:purple;}
+  100% {background-color:red;}
+}
+
+#comp-list .comp-list{
+	flex-wrap: wrap;
+	/*flex-direction: column;*/
+	padding: 20px 0px;
+}
+
+#comp-list .comp-list .company-img-gallery{
+	margin: 30px;
+  /*border: 1px solid white;*/
+  float: left;
+  width: 280px;
+
+}
+
+#comp-list .comp-list .company-img-gallery img {
+  width: 100%;
+  height: auto;
+}
+
+#comp-list .comp-list .company-img-gallery .desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/*End of company list section------------------------------------------------------------------------*/
+
+/*Social Media section*/
+#footer{
+	background-color: #29323c;
+}
+
+#footer .footer{
+	min-height: 30vh;
+	flex-direction: column;
+	padding-top: 20px;
+}
+
+#footer .footer h1
+{
+	color: rgb(209, 67, 164);
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+#footer .footer .footer-sub-heading
+{
+	color: white;
+	font-size: 12px;
+	margin-bottom: 10px;
+	font-weight: 200px;
+	letter-spacing: 2px;
+}
+
+#footer .social-icons{
+	display: flex;
+	margin-bottom: 10px;
+}
+
+#footer .social-icons .social-icon{
+	margin: 0px 4px;
+}
+
+#footer .social-icons .social-icon img{
+	filter: grayscale(100%);
+	transition: filter .3s ease;
+}
+
+#footer .social-icons .social-icon img:hover{
+	filter: grayscale(0%);
+}
+
+#footer .footer p{
+	color: white;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+/*End of Social Media section-----------------------------------------------------------------------*/

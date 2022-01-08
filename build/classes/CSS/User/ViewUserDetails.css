@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	font-family: Montserrat, Roboto, sans-serif;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+
+body{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../Images/user/bg3.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 1000px;
+	height: 500px;
+	display: flex;  /* This style helps arrange column in horizontal */
+	box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+}
+
+.container .left{
+	width: 85%;
+	background: linear-gradient(to right,#01a9ac,#01dbdf);
+	padding: 30px 25px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-align: center;
+	color: black;
+}
+
+.container .left img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.container .left h4{
+	font-weight: 100;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+/*******************************************************************
+ * Right side container*/
+
+.container .right{
+	width: 95%;
+	background: #fff;
+	padding: 30px 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.container .right .info{
+	margin-bottom: 25px;
+}
+
+.container .right .info .info-title
+{
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #e0e0e0;
+	color: #353c4e;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+}
+
+.container .right .info-data{
+	color: #353c4e;
+}
+
+.container .right .info-data p{
+	margin-top: 2px;
+	padding: 2px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	color: #919aa3;
+}
+
+.container .right .info-data .info-data-grades p{
+		margin-bottom: 8px;
+}
+
+.container .button-edit a button{
+  background-color: #3a769c; 
+  border-radius: 24px;
+  text-align: center;
+  line-height: 45px;
+  padding: 2px 12px;
+  border: none;
+  transition: 0.3s ease background;
+  color: white;
+  text-transform: uppercase;
+}
+
+.container .button-edit a{
+	text-decoration: none;
+	
+}
+
+.container .button-edit a button:hover{
+	background-color: #194b6b;
+
+}

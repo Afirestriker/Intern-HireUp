@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	font-family: Montserrat, Roboto, sans-serif;
+	scroll-behavior: smooth;
+ 	font-weight: bold;
+}
+
+.user-settings-body{
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../Images/user/bg3.jpg");
+	height: 100%;
+	background-position: center;
+	
+	background-size: cover;
+	position: relative;
+	box-sizing: border-box;
+}
+
+
+.user-settings-container{
+	padding: 40px 40px;
+	padding-top: 120px;
+	padding-bottom: 40px;
+}
+
+
+/* Form Title */
+.user-settings-container .row h3{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 800px;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+}
+
+/* Styling horizontal line */
+.user-settings-container hr{
+	margin-top: 20px;
+	border: 2px solid #134261; 	
+}
+
+
+.user-settings-container .row{
+	background-color: white;
+	display:  flex;
+}
+
+.user-settings-container .row .col-left{
+	justify-content: center;
+	text-align: center;
+	width: 30%;
+	padding: 130px 40px;
+}
+
+.user-settings-container .row .col-left .status-on{
+	color: green;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+.user-settings-container .row .col-left .status-off{
+	color: red;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+.user-settings-container .row .col-left .firstname{
+	font-size: 16px;
+}
+
+.user-settings-container .row .col-left .email{
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+.user-settings-container .row .col-middle{
+	width: 55%;
+	padding: 80px 60px;
+	border-left: 4px solid #134261;
+	border-right: 4px solid #134261;
+}
+
+
+.user-settings-container .row .col-right{
+	width: 40%;
+	padding: 80px 40px;
+}
+
+.user-settings-container .row form table tr{
+	font-size: 14px;
+}
+
+.user-settings-container .row form table td {
+	padding: 0px 12px;
+	width: 400px;
+}
+
+
+.user-settings-container .row form table input, select{	
+	margin: 14px 0px;
+	padding: 8px 18px;
+	border: 1px solid #d7d9db;
+}
+
+.user-settings-container .row form table input:hover, .user-settings-container .row form table select:hover {
+	border: 1px solid #babcbf;
+}
+
+
+.user-settings-container .row form table input[type=submit]{
+	width: 100%
+}
+
+.user-settings-container .row form table input[type=text], .user-settings-container .row form table input[type=password], .user-settings-container .row form table input[type=date], .user-settings-container .row form table select{
+	width: 84%;
+}
+
+.user-settings-container .row form table input[type=tel]{
+	width: 100%;
+}
+
+.user-settings-container .row form table input[type=submit]:hover{
+	border-color: #e6e8eb;
+	background-color: #e6e8eb;
+}
+
+/* More Styling on Delete Account Form */
+.user-settings-container .row .col-right-del-account form{
+	margin-top: 50px;
+}
+
+.user-settings-container .row .col-right-del-account form input[type=text], .user-settings-container .row .col-right-del-account form input[type=password]{
+	margin: 4px 0px;
+}
+
+.user-settings-container .row .col-right-del-account form input[type=submit]{
+	border: none;
+	width: 100%;
+	background-color: #e64747;
+	color: white;
+	padding: 8px 0px;
+	transition: 0.8s ease font-size;
+}
+
+.user-settings-container .row .col-right-del-account form input[type=submit]:hover{
+	padding: 8px 0px;
+	background-color: #e33434;
+}
