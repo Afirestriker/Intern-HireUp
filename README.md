@@ -26,12 +26,12 @@ relevant, while being able to reach the information
 **Back-end:** MySQL
 
 ## 	:camera: Screenshots
-
-![App Screenshot](./ScreenShots/welcomePage.JPG)
-![App Screenshot](./ScreenShots/Signup.JPG)
-![App Screenshot](./ScreenShots/Login.JPG)
-![App Screenshot](./ScreenShots/UserHomePage.JPG)
-![Intern-HireUp-Java-Project](AdminHomePage.JPG)
+<!--  Syntax: ![Alt-Text](Path) -->
+![WelcomePage](./ScreenShots/welcomePage.JPG)
+![SignUpPage](./ScreenShots/Signup.JPG)
+![LoginPage](./ScreenShots/Login.JPG)
+![UserHomePage](./ScreenShots/UserHomePage.JPG)
+![AdminHomePage](./ScreenShots/AdminHomePage.JPG)
 
 ## :scroll: Lessons Learned
 
