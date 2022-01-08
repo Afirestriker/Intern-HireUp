@@ -32,6 +32,8 @@ relevant, while being able to reach the information
 ![App Screenshot](./ScreenShots/Login.JPG)
 ![App Screenshot](./ScreenShots/UserHomePage.JPG)
 ![App Screenshot](./ScreenShots/AdminHomePage.JPG)
+![App Screenshot](./ScreenShots/UserResume.JPG)
+
 
 ## :scroll: Lessons Learned
 
