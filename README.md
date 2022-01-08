@@ -27,7 +27,7 @@ relevant, while being able to reach the information
 
 ## 	:camera: Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](./ScreenShots/welcomePage.JPG)
 
 
 ## :scroll: Lessons Learned
