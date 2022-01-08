@@ -1,0 +1,95 @@
+
+/* UserHeader.html css file */
+
+/*Menu section*/
+#menu{
+
+	margin: 0px;  /*All side*/
+	padding: 0px; /*All side*/
+
+	font-size: 10px;
+	scroll-behavior: smooth;
+
+
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+#menu .menu-container
+{
+	min-height: 10vh;
+
+	width: 100%;
+	max-width: 100%;
+	margin: 0px auto;
+	display: flex;
+		align-items: center;
+		justify-content: center;
+
+
+	background-color: #29323c; /* (0.24 is the opacity) */
+	justify-content: space-between;
+	transition: .3s ease background-color;
+}
+
+#menu .menu-container .logo
+{
+	height: 70px;
+	margin-left: 150px;
+}
+
+#menu .menu-container ul
+{
+	margin-right: 150px;
+}
+
+#menu .menu-container ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 13px;
+	padding-top: 10px;
+}
+
+/*Dropdown description list*******************************************************/
+#menu .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #29323c;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+#menu .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#menu .discription:hover .dropdown-content {
+  display: block;
+}
+
+/*Dropdown description list end****************************************************/
+
+#menu .menu-container ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: .3s ease color;
+}
+
+
+#menu .menu-container ul li a:hover{
+	color: #5b93eb;
+}
+/*End of Menu section-------------------------------------------------------------------------*/
+

@@ -1,0 +1,246 @@
+
+/* CSS file for styling JSP/Admin/AdminViewUserResume.jsp file */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	font-family: Montserrat, Roboto, sans-serif;
+	scroll-behavior: smooth;
+  font-weight: bold;
+}
+
+body, html {
+  height: 100%;
+}
+
+.resume-sec-title{
+	font-size: 30px;
+	margin-bottom: 26px;
+	color: #484eb5;
+}
+
+/* Common styling for whole resume */
+.UserResume-container{
+}
+
+.UserResume-container .resume-design{
+	background-color: #d4d2d2;
+	padding: 50px;
+	padding-top: 130px;
+	border: none;
+}
+
+
+/* Resume Header section styling ****************************************************/
+.UserResume-container .resume-design .resume-header{
+
+	display: flex;
+	align-items: center;
+
+	padding: 60px 120px 0px; /* padding (top right-left bottom) */
+	height: 10%;
+	border: none;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) ), url("../../Images/Admin/resume-header-bg.jpg");
+	color: white;
+}
+
+.UserResume-container .resume-design .resume-header img{
+	border: 8px solid white;
+}
+
+.UserResume-container .resume-design .resume-header .text-content{
+	flex-direction: column;
+	width: 100%;
+	margin-left: 20%;
+	line-height: 50px;
+}
+
+.UserResume-container .resume-design .resume-header .text-content .user-name{
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+.UserResume-container .resume-design .resume-header .text-content .user-profession{
+	font-size: 14px;
+}
+
+.UserResume-container .resume-design .resume-header .text-content button{
+	padding: 10px;
+	border-radius: 20px;
+	width: 130px;
+	border: none;
+}
+
+.UserResume-container .resume-design .resume-header .text-content button:hover{
+	background-color: #d4d2d2;
+	border: none;
+}
+/* Resume Header section styling close ****************************************************/
+
+/* Resume About Section Design ************************************************************/
+.UserResume-container .resume-design .resume-about{
+
+	padding: 60px 120px 30px; /* padding (top right-left bottom) */
+	height: auto;
+	/*border: 1px solid red;*/
+	background-color: white;
+}
+
+.UserResume-container .resume-design .resume-about .personal-info{
+	display: flex;
+}
+
+.UserResume-container .resume-design .resume-about p{
+	width: 900px;
+	letter-spacing: 1px;
+	line-height: 26px;
+}
+
+.UserResume-container .resume-design .resume-about table{
+	margin-left: 12%;
+	width: 50%;
+}
+
+
+.UserResume-container .resume-design .resume-about table th{
+	text-align: left;
+	padding-bottom: 12px;
+}
+
+.UserResume-container .resume-design .resume-about table td{
+	padding-left: 80px;
+	color: #8f8c8c;
+}
+/* Resume About Section Design close ************************************************************/
+
+
+/* Resume Education Design *********************************************************************/
+
+.UserResume-container .resume-design .resume-education{
+
+	padding: 30px 120px 60px; /* padding (top right-left bottom) */
+	height: auto;
+	/*border: 1px solid red;*/
+	background-color: white;
+}
+
+.UserResume-container .resume-design .resume-education .edu-details{
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+
+.UserResume-container .resume-design .resume-education .edu-details .edu-university{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+
+.UserResume-container .resume-design .resume-education .edu-details .edu-degree-details{
+	font-size: 16px;
+	display: flex;
+}
+
+.UserResume-container .resume-design .resume-education .edu-details .edu-degree-details .edu-degree-name{
+	margin-left: 60px;
+	width: 50%;
+	text-align: left;
+}
+
+.UserResume-container .resume-design .resume-education .edu-details .edu-degree-details .edu-degree-grade{
+	width: 15%;
+	text-align: right;
+}
+
+.UserResume-container .resume-design .resume-education .edu-details .edu-degree-details .edu-start-pass-year{
+	width: 25%;
+	text-align: right;
+}
+
+
+
+/* Resume Education Design close *********************************************************************/
+
+/* Resume Professional Skills Design ************************************************************/
+.UserResume-container .resume-design .resume-professional-skills{
+
+	padding: 30px 120px 60px; /* padding (top right-left bottom) */
+	height: auto;
+	/*border: 1px solid red;*/
+	background-color: white;
+}
+
+.UserResume-container .resume-design .resume-professional-skills table{
+	width: 100%;
+}
+
+.UserResume-container .resume-design .resume-professional-skills table tr{
+}
+
+.UserResume-container .resume-design .resume-professional-skills table td{
+	padding: 6px 16px 6px;
+	width: 0%;
+}
+
+.UserResume-container .resume-design .resume-professional-skills table tr .bar{
+	height: 16px;
+	border-radius: 12px;
+	background-color: #d4d2d2;
+}
+
+.UserResume-container .resume-design .resume-professional-skills table tr .green{
+	
+	height: 16px;
+	/*border-radius: 12px;*/
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #84d46c;
+}
+
+
+/* Resume Professional Skills Design close ************************************************************/
+
+
+/* Resume Extra Activity Design ************************************************************/
+.UserResume-container .resume-design .resume-extra-activity{
+
+	padding: 30px 120px 60px; /* padding (top right-left bottom) */
+	height: auto;
+	/*border: 1px solid red;*/
+	background-color: white;
+}
+
+
+.UserResume-container .resume-design .resume-extra-activity table{
+	width: 100%;
+}
+
+.UserResume-container .resume-design .resume-extra-activity table tr{
+}
+
+.UserResume-container .resume-design .resume-extra-activity table td{
+	padding: 6px 16px 6px;
+	width: 0%;
+}
+
+.UserResume-container .resume-design .resume-extra-activity table tr .bar{
+	height: 16px;
+	border-radius: 12px;
+	background-color: #d4d2d2;
+}
+
+.UserResume-container .resume-design .resume-extra-activity table tr .green{
+	
+	height: 16px;
+	/*border-radius: 12px;*/
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #84d46c;
+}
+
+
+/* Resume Extra Activity Design close ************************************************************/

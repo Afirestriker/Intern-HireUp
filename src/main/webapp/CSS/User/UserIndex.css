@@ -1,0 +1,96 @@
+
+/* AdminIndex.html CSS Styling file */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	font-family: Montserrat, Roboto, sans-serif;
+	scroll-behavior: smooth;
+	
+	/*font-weight: bold;*/
+}
+
+body, html {
+  height: 100%;
+}
+
+/* This is page background */
+.UserIndex-container{
+
+  /* Use color to be cream-white. This will make the text easier to read */
+  background-color: white; /*#f7f6f2*/
+
+  display: flex;
+
+  /* Horizontal Align Position used along with display: flex; */
+  /*justify-content: center;*/
+
+  /* Vertically Align Position used along with display: flex; */
+  align-items: center;
+
+  
+  /* Set a specific height */
+  height: 100%;
+  max-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+
+/* col-left text styling */
+.UserIndex-container-col-left{
+
+	margin-top: 20px;
+	
+  position: absolute;
+  top: 46%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+}
+
+.UserIndex-container-col-left .welcome-msg{
+	color: #3c8ecf;
+	font-size: 50px;
+	letter-spacing: 1.2px;
+	line-height: 60px;
+	margin-bottom: 20px;
+}
+
+.UserIndex-container-col-left .quote {
+
+	color: #3c8ecf;
+	font-size: 22px;
+	letter-spacing: 1.2px;
+	margin-bottom: 40px;	
+	font-weight: bold;
+	font-style: italic;
+	
+}
+
+.UserIndex-container-col-left button{
+
+	margin-bottom: 16px;
+	display: inline-block;
+	font-size: 18px;
+	background-color: white;
+	border: 1px solid #d9d7d0;
+	text-align: left;
+	padding: 16px;
+	width: 400px;
+}
+
+.UserIndex-container-col-left button:hover{
+	box-shadow: 8px 8px 15px rgba(224, 220, 220, 0.5);
+}
+
+.UserIndex-container-col-right{
+
+	margin-top: 200px;
+	margin-left: 800px;
+	margin-bottom: 90px;
+}

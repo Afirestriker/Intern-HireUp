@@ -1,0 +1,163 @@
+
+
+/* AdminViewMessages.html CSS Styling file */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	font-family: Montserrat, Roboto, sans-serif;
+	scroll-behavior: smooth;
+	
+	/*font-weight: bold;*/
+}
+
+
+/* This is page background */
+.admin-view-messages-container{
+
+  /* Use color to be cream-white. This will make the text easier to read */
+  background-color: #f7f6f2;
+
+  /*display: flex;*/
+
+  /* Horizontal Align Position used along with display: flex; */
+  /*justify-content: center;*/
+
+  /* Vertically Align Position used along with display: flex; */
+  /*align-items: center;*/
+
+  padding-bottom: 60px;
+
+}
+
+.admin-view-messages-container .col-left{
+	
+	margin-left: 10%;
+	width: 80%;
+	height: 100%;
+	padding-top: 120px;
+	text-align: center;
+}
+
+.admin-view-messages-container .col-left .table-heading{
+	
+	font-size: 26px;
+	letter-spacing: 4px;
+	margin-bottom: 10px;
+}
+
+.admin-view-messages-container .col-left .table-container{
+
+	width: auto;
+	height: auto;
+
+	text-align: right;
+
+	padding: 26px;
+	background-color: #9975c7;
+}
+
+.admin-view-messages-container .col-left .table-container input[type=search]{
+	margin-bottom: 20px;
+	padding: 8px;
+	width: 30%;
+	border: none;
+	background-color: #fcfcfc;
+}
+
+.admin-view-messages-container .col-left .table-container input[type=search]:hover, .admin-view-messages-container .col-left .table-container input[type=search]:focus{
+	background-color: #f5f5f5;
+}
+
+
+.admin-view-messages-container .col-left .table-container table{
+	
+	border: 1px solid #ebebeb;
+
+	background-color: white;
+
+	width: 100%;
+	height: 100%;
+
+	text-align: center;
+}
+
+
+.admin-view-messages-container .col-left .table-container table tbody:before {
+
+	content:"-";
+    display:block;
+    line-height:10px;
+    text-indent:-99999px;
+}
+
+
+.admin-view-messages-container .col-left .table-container table tbody tr{
+	background-color: #fcfcfc;
+	line-height: 24px;
+}
+
+.admin-view-messages-container .col-left .table-container table tbody tr:hover{
+	background-color: #f5f5f5;
+}
+
+.admin-view-messages-container .col-left .table-container table tbody td{
+	padding: 6px;
+	border-top: 1px solid #ebebeb;
+}
+
+.admin-view-messages-container .col-left .table-container table tbody .col-comment{
+	width: 40%;
+	border: 1px solid #ebebeb;
+}
+
+
+.admin-view-messages-container .col-left .table-container table tbody td a{
+	text-decoration: none;
+}
+
+.admin-view-messages-container .col-left .table-container table tbody td a:hover{
+	text-decoration: underline;
+}
+
+
+.admin-view-messages-container .col-left .table-container table tbody .update-conacts-button:hover{
+	background-color: white;
+}
+
+.admin-view-messages-container .col-left .table-container table tbody .update-conacts-button button{
+
+	background-color: #9975c7;
+	border: none;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	width: 100%;
+	padding: 10px;
+
+	margin: 4px;
+
+	transition: 0.5s ease background-color;
+}
+
+.admin-view-messages-container .col-left .table-container table tbody .update-conacts-button button:hover{
+	background-color: #8546d4;
+}
+
+.admin-view-messages-container .col-right{
+	width: auto;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.admin-view-messages-container .col-right img{
+		display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+}
