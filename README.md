@@ -3,20 +3,21 @@
 # Intern & HireUp (Java Full Stack Project)
 ![WelcomePage](./ScreenShots/welcomePage.JPG)
 
-A brief description of what this project does and who it's for...
+A brief description of what this project does and who it's for.
 
-The Project named Intern & HireUp is developed as an attempt to take personal,
-academic and skills records of student and making it available for the college
-administrator. The system provide the facility of viewing personal, academic and skills
-details of the student as well as generated resume for college administrator. It also
-provides the facility to search for student records and print reports.
+The Intern & HireUp Project is a game-changer for college administrators. 
+It allows them fast and reliable access to student's personal, academic, 
+and skills records. This system gives them an overview of the student's 
+details and a resumes viewing facility. With the ability to search for 
+student records and print reports, it's a time-saving solution for 
+college administrators. 
 
-The application, as described above, can lead to error free, secure, reliable and
-fast management of the data. It can assist the user to concentrate on their other activities
-rather to concentrate on the record keeping. Thus it helps organization in better
-utilization of resources. The organization can maintain computerized records without
-redundant entries. That means that one need not be distracted by information that is not
-relevant, while being able to reach the information
+The best part is that it's reduced error, secure, reliable, and fast! 
+So, administrators can focus on other important tasks and leave the 
+record-keeping to the system. It's a win-win situation as it helps 
+organizations better utilize their resources. With computerized 
+records, there's no need for redundant entries, and administrators 
+can easily access relevant information without any distractions.
 
 ## Tech Stack
 
